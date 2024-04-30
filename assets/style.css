@@ -1,0 +1,27 @@
+.navbar {
+background-color: white;
+}
+
+.hero {
+    background-color: blueviolet;
+}
+
+.col-6 h1, p, .hero-buttons {
+    
+    color:white;
+    top:50%;
+    left:50%;
+    transform: translate(10%, 30%);
+}
+
+#hero-bottom {
+    background-color: lightsteelblue;
+    display: flex;
+}
+
+#hero-bottom .col-4 {
+   display: flex;
+   
+    border: solid 2px;
+    border-color: blue;
+}
